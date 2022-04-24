@@ -19,9 +19,9 @@ public class TCPClient {
    public static void main(String[] args) throws IOException {
    
       // Variables for setting up connection and communication
-      String routerName       = "DESKTOP-S39MA4K";             // ServerRouter host name
+      String routerName       = "ROUTERNAME";             // ServerRouter host name
       String peerAddress      = "192.0.0.";                    // FAKE Logical peer address (USED IN ROUTING TABLE)
-      String realAddress      = "192.168.1.208";  
+      String realAddress      = "IPADDRESS";  
       String inputFile        = args[1];
 
       int numOfThreads        = Integer.valueOf(args[0]);     
