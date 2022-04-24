@@ -1,7 +1,7 @@
 //################################################################# 
 //                      Command Line Args
 //  1. Number of "clients" or threads
-//  2. "txt" if you are sending a txt file otherwise anything else 
+//  2. "txt" if you are sending a txt file otherwise "video"
 //################################################################# 
 
 import java.io.*;
