@@ -14,7 +14,7 @@ public class TCPClient2 {
       Socket socket           = null;                       // socket to connect with ServerRouter
       PrintWriter out         = null;                       // for writing to ServerRouter
       BufferedReader in       = null;                       // for reading form ServerRouter
-      String routerName       = "DESKTOP-S39MA4K";          // ServerRouter host name
+      String routerName       = "ROUTERNAME";          // ServerRouter host name
       String fileType         = args[1];
       int SockNum             = 5556;                       // Router (2) port number
       int numOfThreads        = Integer.valueOf(args[0]);
