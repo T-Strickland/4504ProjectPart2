@@ -18,7 +18,7 @@ public class TCPServerRouter {
    int            logicalIPCount    = 1;                          //   Concatinated to logicalIP  
    int            clientCount       = Integer.valueOf(args[0]);   //   Prevent clients from network 2 being added to the routing table
    String         logicalIP         = "192.0.0.";
-   String         routerName        = "DESKTOP-S39MA4K";           // ServerRouter host name
+   String         routerName        = "ROUTERNAME";           // ServerRouter host name
 
    //Accepting connections
    ServerSocket serverSocket = null;                            //   Server socket for accepting connections
